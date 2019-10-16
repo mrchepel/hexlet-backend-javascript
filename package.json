@@ -25,6 +25,7 @@
     "lodash": "^4.17.15",
     "@hexlet/pairs": "^1.0.10",
     "@hexlet/pairs-data": "^1.0.9",
-    "@hexlet/tagged-types": "^1.0.4"
+    "@hexlet/tagged-types": "^1.0.4",
+    "@hexlet/immutable-fs-trees": "^0.3.2"
   }
 }
