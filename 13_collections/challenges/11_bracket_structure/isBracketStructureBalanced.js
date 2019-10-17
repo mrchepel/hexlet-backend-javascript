@@ -13,6 +13,7 @@ const isStackEmpty = (stack) => stack.length === 0;
 
 export default (str) => {
   const stack = [];
+  // eslint-disable-next-line no-restricted-syntax
   for (const symbol of str) {
     if (isOpeningSymbol(symbol)) {
       stack.push(getClosingSymbolFor(symbol));
