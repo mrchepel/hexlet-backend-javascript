@@ -23,5 +23,5 @@
   - [x] 8. Query string
   - [x] 9. Intersection
   - [x] 10. Without
-  - [ ] 11. Bracket structure
+  - [x] 11. Bracket structure
   - [x] 12. Data normalization
