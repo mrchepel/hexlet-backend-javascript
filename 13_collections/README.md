@@ -24,4 +24,4 @@
   - [x] 9. Intersection
   - [x] 10. Without
   - [ ] 11. Bracket structure
-  - [ ] 12. Data normalization
+  - [x] 12. Data normalization
