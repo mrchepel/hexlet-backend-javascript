@@ -1,4 +1,6 @@
-import { l, cons, head, tail, isEmpty, toString as listToString } from '@hexlet/pairs-data'; // eslint-disable-line
+import {
+  l, cons, head, tail, isEmpty,
+} from '@hexlet/pairs-data';
 
 export const has = (list, number) => {
   if (isEmpty(list)) {
