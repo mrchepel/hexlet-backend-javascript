@@ -1,4 +1,6 @@
-import { cons as consList, l, random, head, reverse, toString as listToString } from '@hexlet/pairs-data'; // eslint-disable-line
+import {
+  cons as consList, l, random, head, reverse,
+} from '@hexlet/pairs-data';
 
 const run = (player1, player2, cards, customRandom) => {
   const iter = (health1, name1, health2, name2, order, log) => {

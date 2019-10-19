@@ -1,5 +1,7 @@
-import { cons, car, cdr, toString as pairToString } from '@hexlet/pairs'; // eslint-disable-line
-import { cons as consList, l, random, head, reverse, toString as listToString } from '@hexlet/pairs-data'; // eslint-disable-line
+import { cons, car, cdr } from '@hexlet/pairs';
+import {
+  cons as consList, l, random, head, reverse,
+} from '@hexlet/pairs-data';
 
 const run = (player1, player2, cards, customRandom) => {
   const iter = (health1, name1, health2, name2, order, log) => {
@@ -29,9 +31,7 @@ const run = (player1, player2, cards, customRandom) => {
   return reverse(iter(startHealth, player1, startHealth, player2, 1, l(logItem)));
 };
 
-// BEGIN (write your solution here)
 const make = (cards, customRandom = random) => (name1, name2) => (
   run(name1, name2, cards, customRandom));
 
 export default make;
-// END

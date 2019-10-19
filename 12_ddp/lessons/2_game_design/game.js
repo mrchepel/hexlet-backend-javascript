@@ -7,7 +7,6 @@ import {
 
 const run = (player1, player2, cards) => {
   const iter = (health1, name1, health2, name2, order, log) => {
-    // BEGIN (write your solution here)
     if (health1 <= 0) {
       const message = `${name1} был убит`;
       const logItem = cons(car(head(log)), message);
@@ -26,7 +25,6 @@ const run = (player1, player2, cards) => {
     }
     const newLog = consList(stats, log);
     return iter(healthAfterDamage, name2, health1, name1, order === 1 ? 2 : 1, newLog);
-    // END
   };
 
   const startHealth = 10;

@@ -1,4 +1,4 @@
-import { cons, car, cdr, toString as pairToString } from '@hexlet/pairs'; // eslint-disable-line
+import { cons, car, cdr } from '@hexlet/pairs';
 import { attach } from '@hexlet/tagged-types';
 import { definer } from './generic';
 

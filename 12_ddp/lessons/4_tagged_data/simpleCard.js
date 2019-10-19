@@ -1,4 +1,4 @@
-import { cons, car, cdr, toString as pairToString } from '@hexlet/pairs'; // eslint-disable-line
+import { cons, car, cdr } from '@hexlet/pairs';
 import { attach, contents } from '@hexlet/tagged-types';
 
 export const make = (name, damage) => attach('SimpleCard', cons(name, damage));

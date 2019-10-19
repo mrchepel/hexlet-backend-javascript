@@ -1,5 +1,7 @@
-import { cons, car, toString as pairToString } from '@hexlet/pairs'; // eslint-disable-line
-import { cons as consList, l, random, head, reverse, toString as listToString } from '@hexlet/pairs-data'; // eslint-disable-line
+import { cons, car } from '@hexlet/pairs';
+import {
+  cons as consList, l, random, head, reverse,
+} from '@hexlet/pairs-data';
 import { typeTag } from '@hexlet/tagged-types';
 import { getName as getSimpleCardName, damage as simpleCardDamage } from './simpleCard';
 import { getName as getPercentCardName, damage as percentCardDamage } from './percentCard';
