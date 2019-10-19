@@ -4,7 +4,6 @@ import {
 
 import { getValue, is, map } from '@hexlet/html-tags';
 
-// BEGIN (write your solution here)
 export const filter = (func, list) => {
   const iter = (items, acc) => {
     if (isEmpty(items)) {
@@ -19,8 +18,6 @@ export const filter = (func, list) => {
 };
 
 export const quotes = (list) => map((item) => getValue(item), filter((item) => is('blockquote', item), list));
-
-// END
 
 export const removeHeaders = (elements) => {
   if (isEmpty(elements)) {

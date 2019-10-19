@@ -1,10 +1,10 @@
-import { /* eslint-disable */
-  l, cons as consList, isList, isEmpty, head, tail, concat, toString as listToString,
+import {
+  l, cons as consList, concat,
 } from '@hexlet/pairs-data';
 
 import {
-  is, hasChildren, children, filter, reduce, toString as htmlToString,
-} from '@hexlet/html-tags'; /* eslint-enable */
+  is, hasChildren, children, reduce,
+} from '@hexlet/html-tags';
 
 const select = (tagName, htmlList) => {
   const func = (element, acc) => {
