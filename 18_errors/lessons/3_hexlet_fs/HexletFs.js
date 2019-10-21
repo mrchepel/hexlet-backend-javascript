@@ -1,9 +1,7 @@
 import path from 'path';
 import Tree from '@hexlet/trees';
 
-// BEGIN (write your solution here)
 const getPathParts = (filepath) => filepath.split(path.sep).filter((item) => item !== '');
-// END
 
 export default class {
   constructor() {
