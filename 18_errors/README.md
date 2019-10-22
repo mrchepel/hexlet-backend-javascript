@@ -4,3 +4,4 @@
   - [x] 2. Trees
   - [x] 3. Hexlet FS
   - [x] 4. Stats
+  - [ ] 5. Error handling
