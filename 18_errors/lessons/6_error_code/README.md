@@ -17,7 +17,7 @@ errors.code.ENOTEMPTY;
 
 Реализуйте следующие возможности файловой системы `HexletFs`:
 
-## `unlinkSync(path)`
+### `unlinkSync(path)`
 
 Удаляет файл (в реальной фс все чуть сложнее, см. `hard link`).
 
@@ -26,7 +26,7 @@ errors.code.ENOTEMPTY;
 * `ENOENT` - файл не найден
 * `EPERM` - операция не разрешена. Такая ошибка возникает в случае, если `path` это директория
 
-## `writeFileSync(path, content)`
+### `writeFileSync(path, content)`
 
 Записывает `content` в файл по пути `path`.
 
@@ -36,7 +36,7 @@ errors.code.ENOTEMPTY;
 * `EISDIR` - `path` является директорией
 * `ENOTDIR` - родительский элемент не является директорией
 
-## `readFileSync(path)`
+### `readFileSync(path)`
 
 Читает содержимое файла по пути `path`.
 
