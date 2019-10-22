@@ -29,6 +29,7 @@
   "author": "mr_chepel",
   "license": "ISC",
   "dependencies": {
+    "@hexlet/fs": "^0.3.6",
     "@hexlet/html-tags": "^0.5.0",
     "@hexlet/immutable-fs-trees": "^0.3.2",
     "@hexlet/pairs": "^1.0.10",
