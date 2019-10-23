@@ -16,7 +16,7 @@ https://ru.hexlet.io/blog?per=10&page=5
 
 Реализуйте и экспортируйте функцию по умолчанию, которая принимает на вход список параметров и возвращает сформированный query string из этих параметров:
 
-```
+```js
 import bqs from '../buildQueryString';
 
 bqs({ per: 10, page: 1 });

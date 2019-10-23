@@ -6,7 +6,7 @@
 
 Предположим, что у нас есть такой `html`:
 
-```
+```html
 <h1>scheme</h1>
 <p>is a lisp</p>
 <ul>
@@ -37,7 +37,7 @@
 
 Тогда:
 
-```
+```js
 const dom1 = make(); // Список нод, то есть это лес, а не дерево
 const dom2 = append(dom1, node('h1', 'scheme'));
 const dom3 = append(dom2, node('p', 'is a lisp'));

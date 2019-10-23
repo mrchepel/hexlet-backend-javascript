@@ -2,7 +2,7 @@
 
 Реализуйте и экспортируйте функцию `reduce` для библиотеки `html-tags`:
 
-```
+```js
 import { node, append, make, reduce } from '@hexlet/html-tags';
 
 const html1 = append(make(), node('h1', 'header1'));
@@ -16,7 +16,7 @@ reduce((element, acc) => {
 
 Реализуйте и экспортируйте функцию `emptyTagsCount`, которая считает количество пустых тегов. Тип тега задается первым параметром функции.
 
-```
+```js
 import { make, append, node } from '@hexlet/html-tags';
 
 const html1 = make();

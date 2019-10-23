@@ -4,7 +4,7 @@
 
 import buildHtml from './solution';
 
-```
+```js
 const data = ['html', [
   ['meta', [
     ['title', 'hello, hexlet!'],
@@ -21,7 +21,7 @@ const data = ['html', [
 buildHtml(data);
 ```
 
-```
+```html
 <html>
   <meta><title>hello, hexlet!</title></meta>
   <body class="container">

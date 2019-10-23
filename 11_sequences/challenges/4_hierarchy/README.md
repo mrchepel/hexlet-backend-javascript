@@ -4,7 +4,7 @@
 
 ## XPath
 
-```
+```xpath
 /bookstore/book/price[text()]
 price/@exchange/total
 book[excerpt]/author[degree]
@@ -12,7 +12,7 @@ book[excerpt]/author[degree]
 
 ## JQuery
 
-```
+```jquery-css
 $("ul > li:first-child")
 $("p.class1, #p1")
 ```
@@ -23,7 +23,7 @@ $("p.class1, #p1")
 
 У нас есть такой html:
 
-```
+```html
 <h1>scheme</h1>
 <p>is a lisp</p>
 <p>
@@ -65,7 +65,7 @@ $("p.class1, #p1")
 
 Строим html следующим образом:
 
-```
+```js
 const dom1 = make();
 const dom2 = append(dom1, node('h1', 'scheme'));
 const dom3 = append(dom2, node('p', 'is a lisp'));
@@ -85,7 +85,7 @@ dom = append(dom11, node('p', 'is about logic'));
 
 Пример работы функции, где для наглядности показано какой она будет возвращать результат если выводить его на экран (`htmlToString`):
 
-```
+```js
 select(l('p', 'ul', 'li'), dom);
 // <li>item 1</li><li>item 2</li>
 

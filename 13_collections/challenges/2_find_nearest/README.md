@@ -6,7 +6,7 @@
 
 ## Примеры
 
-```
+```js
 findIndexOfNearest([], 2);              // null
 findIndexOfNearest([15, 10, 3, 4], 0);  // 2
 findIndexOfNearest([7, 5, 3, 2], 4);    // 1

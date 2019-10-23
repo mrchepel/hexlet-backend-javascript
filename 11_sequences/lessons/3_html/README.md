@@ -5,7 +5,7 @@
 * `make` — конструктор. Уже реализован. Не принимает параметров, и создает html-список.
 * `node` — создает новый тег. Содержит два элемента, имя тега и его содержимое. Дополнительно реализуйте селекторы тега: `getName` и `getValue`.
 
-```
+```js
   const tag = node('div', 'what is love?');
   getName(tag); // => div
   getValue(tag); // => what is love?
@@ -16,7 +16,7 @@
 
 Пример использования этого интерфейса:
 
-```
+```js
 import { make, append, toString, node } from './html-tags';
 
 // Создаем новый html-список
