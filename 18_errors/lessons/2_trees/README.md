@@ -9,7 +9,7 @@
 * `getDeepChild(keys)`. Функция возвращает `undefined` если узел не найден или был передан пустой массив.
 * `getChildren()`
 
-```
+```js
 tree = new Tree('/');
 tree.addChild('var')
   .addChild('lib')
