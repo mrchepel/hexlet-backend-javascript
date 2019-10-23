@@ -1,6 +1,6 @@
 Ошибок, связанных с файловой системой, очень много, и для их ручной генерации существуют удобные библиотеки. Например, [errno](https://github.com/rvagg/node-errno). Пример использования:
 
-```
+```js
 import errors from 'errno';
 
 errors.code.ENOTEMPTY;

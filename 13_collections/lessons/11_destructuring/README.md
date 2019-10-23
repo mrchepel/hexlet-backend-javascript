@@ -6,7 +6,7 @@
 
 Порядок свойств в результирующем объекте не важен.
 
-```
+```js
 const cars = [
   { brand: 'bmw', model: 'm5', year: 2014 },
   { brand: 'bmw', model: 'm4', year: 2013 },

@@ -16,34 +16,34 @@ world
 
 `l(...items)` — функция-конструктор. Уже реализована.
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 ```
 
 `toString(list)` — возвращает строковое представление списка
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 toString(list); // (foo, bar, baz)
 ```
 
 `head(list) `— возвращает первый элемент списка
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const first = head(list); // 'foo'
 ```
 
 `tail(list)` — возвращает "хвост" списка (все элементы, кроме первого)
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const rest = tail(list); // l('bar', 'baz')
 ```
 
 `isEmpty(list)` — проверяет, является ли список пустым
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 
 console.log(isEmpty(list)); // false
@@ -52,28 +52,28 @@ console.log(isEmpty(l()));  // true
 
 `cons(item, list)` — добавляет элемент в начало списка и возвращает новый список
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const newList = cons('bas', list); // l('bas', 'foo', 'bar', 'baz')
 ```
 
 `filter(predicate, list)` — фильтрует список, используя предикат
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const filteredList = filter(item => item[0] === 'b', list); // l('bar', 'baz')
 ```
 
 `map(callback, list)` — преобразует список, используя callback-функцию
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const mappedList = map(item => item[0], list); // l('f', 'b', 'b')
 ```
 
 `reduce(callback, init, list)` — производит свертывание списка
 
-```
+```js
 const list = l('foo', 'bar', 'baz');
 const result = reduce((item, acc) => acc ? `${acc},${item}` : item, '', list);
 console.log(result); // foo,bar,baz
@@ -84,10 +84,10 @@ console.log(result); // foo,bar,baz
 * Решение учителя на 100% функциональное
 * Длина строки `str` находится так: `str.length`
 * Чтобы получить подстроку из строки, используйте метод `substr`:
-  ```
+  ```js
   'foo'.substr(1, 2); // 'oo';
   ```
 * Чтобы получить индекс, по которому находится отдельный символ в строке, используйте метод `indexOf`
-  ```
+  ```js
   'bar'.indexOf('a'); // 1;
   ```

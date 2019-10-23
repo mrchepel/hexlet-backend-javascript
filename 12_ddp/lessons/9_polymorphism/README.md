@@ -1,6 +1,6 @@
 В HTML некоторые элементы хранят ссылку в атрибуте `href`, а некоторые — в `src`. Например:
 
-```
+```html
 <img src="/logo.jpg">
 <link href="/style.css">
 <a href="/">
@@ -8,7 +8,7 @@
 
 Абстракция `Tags` содержит интерфейс для представления тега HTML:
 
-```
+```js
 const hr = make('hr');
 const a = make('a', { href: '/' });
 
@@ -25,7 +25,7 @@ getAttribute('notexist', a); // => undefined
 
 Реализуйте и экспортируйте по умолчанию функцию `extract`, которая принимает на вход список тегов (только `<a>`, `<link>` и `<img>`) и возвращает список ссылок, извлеченных из этих тегов.
 
-```
+```js
 const tags = l(
   make('a', { href: '/about' }),
   make('img', { src: '/avatar.jpeg' }),

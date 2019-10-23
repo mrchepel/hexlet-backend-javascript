@@ -11,7 +11,7 @@
 
 ## Пример:
 
-```
+```js
 files.isDirectory('/etc'); // false
 
 files.mkdirSync('/etc');

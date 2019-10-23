@@ -2,7 +2,7 @@
 
 Реализуйте и экспортируйте функцию `filter` для библиотеки `html-tags`, используя итеративный процесс:
 
-```
+```js
 import { node, append, make, filter, toString as htmlToString } from '@hexlet/html-tags';
 
 const html1 = append(make(), node('h1', 'header1'));
@@ -18,7 +18,7 @@ htmlToString(processedHtml);
 
 Реализуйте и экспортируйте функцию `quotes`, которая извлекает из html тексты цитат и возвращает список цитат.
 
-```
+```js
 import { toString as pairToString } from '@hexlet/pairs-data';
 import { make, append, node } from '@hexlet/html-tags';
 

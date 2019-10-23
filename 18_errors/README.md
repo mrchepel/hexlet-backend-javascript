@@ -6,3 +6,4 @@
   - [x] 4. Stats
   - [x] 5. Error handling
   - [x] 6. Error code
+  - [ ] 7. Exceptions

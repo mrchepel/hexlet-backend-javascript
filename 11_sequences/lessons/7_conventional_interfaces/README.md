@@ -4,7 +4,7 @@
 
 Например такой `html` в строковом представлении `<h2>header1</h2><h2>header2</h2><p>content</p>` превратится в такой `<p>header1</p><p>header2</p>`. Ниже развернутый пример.
 
-```
+```js
 import { node, append, make, reduce, toString as htmlToString } from '@hexlet/html-tags';
 
 const html1 = append(make(), node('h2', 'header1'));
@@ -18,7 +18,7 @@ htmlToString(extractHeaders(html3));
 
 Реализуйте и экспортируйте функцию `wordsCount`, которая считает вхождения слова в определенный тег. Для подсчета слов в тексте одного тега воспользуйтесь вспомогательной функцией `wc`, которая уже импортирована в модуль `html-tags`.
 
-```
+```js
 import { make, append, node } from '@hexlet/html-tags';
 
 const html1 = append(make(), node('h2', 'header1 lisp'));
@@ -33,7 +33,7 @@ wordsCount('h2', 'lisp', html4); // 3
 
 * Подсчет слов в тексте: `wc(word, text)`, где `word` искомое слово, а `text` это текст, в котором ведется поиск.
 
-```
+```js
 wc('what', 'what, what, who, what'); // 3
 wc('la', 'loli'); // 0
 ```

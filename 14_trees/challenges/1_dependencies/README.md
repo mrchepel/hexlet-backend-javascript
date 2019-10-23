@@ -6,7 +6,7 @@
 
 Пример:
 
-```
+```js
 const deps1 = {
   mongo: [],
   tzinfo: ['thread_safe'],

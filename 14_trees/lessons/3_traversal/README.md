@@ -4,7 +4,7 @@
 
 Экспортируйте по умолчанию функцию.
 
-```
+```js
 const tree = mkdir('/', [
   mkdir('eTc', [
     mkdir('NgiNx'),

@@ -10,7 +10,7 @@
 
 ## Примеры
 
-```
+```js
 const tree = ['Moscow', [
   ['Smolensk'],
   ['Yaroslavl'],
