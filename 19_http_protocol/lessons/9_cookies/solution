@@ -1,0 +1,4 @@
+GET /account HTTP/1.1
+host: hexlet.local
+cookie: name=user; secret=secret_hash
+connection: close

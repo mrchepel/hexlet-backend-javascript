@@ -1,0 +1,7 @@
+POST /session/new HTTP/1.1
+host: hexlet.local
+content-type: application/x-www-form-urlencoded
+content-length: 30
+connection: close
+
+username=admin&password=secret

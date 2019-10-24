@@ -1,0 +1,4 @@
+GET /admin HTTP/1.1
+host: hexlet.local
+authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+connection: close
