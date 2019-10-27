@@ -6,6 +6,7 @@
   - [x] 4. Asynchronous return
   - [x] 5. Asynchronous flow
   - [x] 6. Error handling
+  - [x] 7. Parallel execution
 
 
 ## Challenges:
