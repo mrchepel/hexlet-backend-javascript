@@ -5,6 +5,7 @@
   - [x] 3. Asynchronous code
   - [x] 4. Asynchronous return
   - [x] 5. Asynchronous flow
+  - [x] 6. Error handling
 
 
 ## Challenges:
