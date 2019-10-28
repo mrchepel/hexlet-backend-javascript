@@ -7,6 +7,7 @@
   - [x] 5. Asynchronous flow
   - [x] 6. Error handling
   - [x] 7. Parallel execution
+  - [x] 8. Timers
 
 
 ## Challenges:
