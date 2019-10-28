@@ -24,7 +24,7 @@ test('watch 5: cb should be called once', (done) => {
 
 test('watch 6', (done) => {
   const id = watch(filepath, 500, () => {
-    expect(id._idleNext).toBeNull(); //eslint-disable-line
+    expect(id._idleNext).toBe(undefined); //eslint-disable-line
     clearInterval(id);
     done();
   });
