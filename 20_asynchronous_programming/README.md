@@ -8,6 +8,8 @@
   - [x] 6. Error handling
   - [x] 7. Parallel execution
   - [x] 8. Timers
+  - [x] 9. Event loop
+  - [x] 10. Promises
 
 
 ## Challenges:
