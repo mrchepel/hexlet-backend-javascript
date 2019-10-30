@@ -10,6 +10,7 @@
   - [x] 8. Timers
   - [x] 9. Event loop
   - [x] 10. Promises
+  - [x] 11. Promises catch
 
 
 ## Challenges:
