@@ -30,21 +30,21 @@ test('unionFiles 2', (done) => {
   });
 });
 
-// test('unionFiles 3', (done) => {
-//   unionFiles(filepath1, filepath2, '/a/b/c/', (err) => {
-//     expect(err).not.toBeNull();
-//     done();
-//   });
-// });
-//
-// test('unionFiles 4', (done) => {
-//   unionFiles(filepath1, filepath2, output, (err) => {
-//     expect(err).toBeNull();
-//
-//     fs.readFile(output, 'utf-8', (err2, data2) => {
-//       expect(err2).toBeNull();
-//       expect(data2).toBe('data1data2');
-//       done();
-//     });
-//   });
-// });
+test('unionFiles 3', (done) => {
+  unionFiles(filepath1, filepath2, '/a/b/c/', (err) => {
+    expect(err).not.toBeNull();
+    done();
+  });
+});
+
+test('unionFiles 4', (done) => {
+  unionFiles(filepath1, filepath2, output, (err) => {
+    expect(err).toBeNull();
+
+    fs.readFile(output, 'utf-8', (err2, data2) => {
+      expect(err2).toBeNull();
+      expect(data2).toBe('data1data2');
+      done();
+    });
+  });
+});
