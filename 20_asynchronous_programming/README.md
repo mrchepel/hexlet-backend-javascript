@@ -11,6 +11,7 @@
   - [x] 9. Event loop
   - [x] 10. Promises
   - [x] 11. Promises catch
+  - [x] 12. Chain of promises
 
 
 ## Challenges:
