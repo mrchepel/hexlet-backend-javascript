@@ -12,7 +12,7 @@ test('getDirectorySize 2', () => {
 
 test('getDirectorySize 3', () => {
   const promise = getDirectorySize('/usr/local/bin');
-  return expect(promise).resolves.toBe(1224);
+  return expect(promise).resolves.toBe(180550312);
 });
 
 test('getDirectorySize 4', () => {
