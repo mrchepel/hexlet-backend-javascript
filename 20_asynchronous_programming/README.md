@@ -18,4 +18,5 @@
 
 
 ## Challenges:
-  - [ ] 1. 
+  - [x] 1. Promisify
+  - [ ] 2. ls
