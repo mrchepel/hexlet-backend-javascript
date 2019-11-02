@@ -13,6 +13,8 @@
   - [x] 11. Promises catch
   - [x] 12. Chain of promises
   - [x] 13. Promise.all
+  - [x] 14. new Promise
+  - [x] 15. Async/Await
 
 
 ## Challenges:
