@@ -18,7 +18,4 @@ describe('Phonebook', () => {
       }
     });
   });
-  afterAll((done) => {
-    server.close(done);
-  });
 });

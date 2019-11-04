@@ -27,7 +27,7 @@
     "jest": "^24.9.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "author": "mr_chepel",
   "license": "ISC",
