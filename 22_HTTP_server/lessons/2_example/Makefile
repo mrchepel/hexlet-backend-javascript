@@ -1,0 +1,2 @@
+start:
+	bin/phonebook.js
