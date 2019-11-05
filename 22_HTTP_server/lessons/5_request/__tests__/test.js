@@ -7,7 +7,7 @@ import httpAdapter from 'axios/lib/adapters/http';
 import startServer from '..';
 
 const hostname = 'http://localhost';
-const port = 8080;
+const port = 8081;
 const url = `${hostname}:${port}`;
 
 const config = {
