@@ -4,6 +4,7 @@ import querystring from 'querystring';
 
 export default (usersById) => http.createServer((request, response) => {
   request.on('error', (err) => {
+    // eslint-disable-next-line no-console
     console.error(err.stack);
   });
   request.on('end', () => {
