@@ -8,4 +8,7 @@
   - [x] 6. Hash table
   
 ## Challenges:
-  - [] 1. 
+  - [x] 1. From pairs
+  - [x] 2. DNA to RNA
+  - [x] 3. Query string
+  - [x] 4. Find where
