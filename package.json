@@ -46,6 +46,7 @@
     "errno": "^0.1.7",
     "http-string-parser": "0.0.6",
     "lodash": "^4.17.15",
-    "power-assert": "^1.6.1"
+    "power-assert": "^1.6.1",
+    "string-hash": "^1.1.3"
   }
 }

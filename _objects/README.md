@@ -5,8 +5,7 @@
   - [x] 3. Using
   - [x] 4. For of
   - [x] 5. Destructuring
+  - [x] 6. Hash table
   
-
-
 ## Challenges:
   - [] 1. 
