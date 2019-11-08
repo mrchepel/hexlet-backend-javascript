@@ -4,8 +4,8 @@
   - [x] 2. Pure functions
   - [x] 3. Command-query Separation (CQS)
   - [x] 4. Rest operator
-  - [ ] 5. Spread operator
-  - [ ] 6.
+  - [x] 5. Spread operator
+  - [ ] 6. Params destructuring
   - [ ] 7.
   - [ ] 8.
   - [ ] 9.
