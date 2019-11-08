@@ -2,8 +2,8 @@
 ## Lessons:
   - [x] 1. Introduction
   - [x] 2. Pure functions
-  - [ ] 3.
-  - [ ] 4.
+  - [x] 3. Command-query Separation (CQS)
+  - [x] 4. Rest operator
   - [ ] 5.
   - [ ] 6.
   - [ ] 7.
