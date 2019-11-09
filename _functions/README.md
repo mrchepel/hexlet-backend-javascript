@@ -5,9 +5,9 @@
   - [x] 3. Command-query Separation (CQS)
   - [x] 4. Rest operator
   - [x] 5. Spread operator
-  - [ ] 6. Params destructuring
-  - [ ] 7.
-  - [ ] 8.
+  - [x] 6. Params destructuring
+  - [x] 7. First class citizen
+  - [x] 8. High order functions
   - [ ] 9.
   - [ ] 10.
   - [ ] 11.
