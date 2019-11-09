@@ -8,8 +8,8 @@
   - [x] 6. Params destructuring
   - [x] 7. First class citizen
   - [x] 8. High order functions
-  - [ ] 9.
-  - [ ] 10.
+  - [x] 9. Map
+  - [x] 10. Filter
   - [ ] 11.
   - [ ] 12.
   - [ ] 13.
