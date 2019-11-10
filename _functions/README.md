@@ -12,8 +12,8 @@
   - [x] 10. Filter
   - [x] 11. Reduce
   - [x] 12. Signals
-  - [ ] 13.
-  - [ ] 14.
+  - [x] 13. Paradigms
+  - [x] 14. Abstraction
   
 ## Challenges:
   - [ ] 1. 
