@@ -17,6 +17,6 @@
   
 ## Challenges:
   - [x] 1. Same parity
-  - [ ] 2. Enlarge array image
+  - [x] 2. Enlarge array image
   - [ ] 3. Find nearest
   - [ ] 4. NRZI
