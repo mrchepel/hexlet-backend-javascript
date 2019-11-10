@@ -18,5 +18,5 @@
 ## Challenges:
   - [x] 1. Same parity
   - [x] 2. Enlarge array image
-  - [ ] 3. Find nearest
-  - [ ] 4. NRZI
+  - [x] 3. Find nearest
+  - [x] 4. NRZI
