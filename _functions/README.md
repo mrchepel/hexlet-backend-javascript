@@ -10,7 +10,7 @@
   - [x] 8. High order functions
   - [x] 9. Map
   - [x] 10. Filter
-  - [ ] 11.
+  - [x] 11. Reduce
   - [ ] 12.
   - [ ] 13.
   - [ ] 14.

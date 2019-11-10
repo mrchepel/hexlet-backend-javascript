@@ -6,3 +6,4 @@
   - [x] 4. Reload
   - [x] 5. Request
   - [x] 6. JSON
+  - [ ] 7. Routing
