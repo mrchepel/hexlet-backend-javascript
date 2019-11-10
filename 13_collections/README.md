@@ -18,7 +18,7 @@
   - [x] 3. Chunk
   - [x] 4. Difference
   - [x] 5. From pairs
-  - [ ] 6. NRZI
+  - [x] 6. NRZI
   - [x] 7. Enlarge array image
   - [x] 8. Query string
   - [x] 9. Intersection
