@@ -16,4 +16,7 @@
   - [x] 14. Abstraction
   
 ## Challenges:
-  - [ ] 1. 
+  - [x] 1. Same parity
+  - [ ] 2. Enlarge array image
+  - [ ] 3. Find nearest
+  - [ ] 4. NRZI
