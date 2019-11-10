@@ -11,7 +11,7 @@
   - [x] 9. Map
   - [x] 10. Filter
   - [x] 11. Reduce
-  - [ ] 12.
+  - [x] 12. Signals
   - [ ] 13.
   - [ ] 14.
   
