@@ -3,7 +3,7 @@
   - [x] 1. Symbols
   - [x] 2. Character classes
   - [x] 3. Anchors
-  - [ ] 4. Alternation
+  - [x] 4. Alternation
   - [ ] 5. Quantifiers
   - [ ] 6. Greedy
   - [ ] 7. Backreferences
