@@ -2,7 +2,7 @@
 ## Lessons:
   - [x] 1. Symbols
   - [x] 2. Character classes
-  - [ ] 3. Anchors
+  - [x] 3. Anchors
   - [ ] 4. Alternation
   - [ ] 5. Quantifiers
   - [ ] 6. Greedy
