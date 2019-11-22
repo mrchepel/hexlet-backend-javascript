@@ -7,7 +7,7 @@
   - [x] 5. Quantifiers
   - [x] 6. Greedy
   - [x] 7. Backreferences
-  - [ ] 8. Modifiers
-  - [ ] 9. Lookaround
+  - [x] 8. Modifiers
+  - [x] 9. Lookaround
   - [ ] 10. Regexp conditionals
   - [ ] 11. Flags
