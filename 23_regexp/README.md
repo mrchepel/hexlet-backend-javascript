@@ -4,7 +4,7 @@
   - [x] 2. Character classes
   - [x] 3. Anchors
   - [x] 4. Alternation
-  - [ ] 5. Quantifiers
+  - [x] 5. Quantifiers
   - [ ] 6. Greedy
   - [ ] 7. Backreferences
   - [ ] 8. Modifiers
