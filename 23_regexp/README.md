@@ -5,7 +5,7 @@
   - [x] 3. Anchors
   - [x] 4. Alternation
   - [x] 5. Quantifiers
-  - [ ] 6. Greedy
+  - [x] 6. Greedy
   - [ ] 7. Backreferences
   - [ ] 8. Modifiers
   - [ ] 9. Lookaround
