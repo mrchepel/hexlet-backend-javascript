@@ -6,7 +6,7 @@
   - [x] 4. Alternation
   - [x] 5. Quantifiers
   - [x] 6. Greedy
-  - [ ] 7. Backreferences
+  - [x] 7. Backreferences
   - [ ] 8. Modifiers
   - [ ] 9. Lookaround
   - [ ] 10. Regexp conditionals
