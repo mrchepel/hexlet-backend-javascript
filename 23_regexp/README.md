@@ -9,5 +9,5 @@
   - [x] 7. Backreferences
   - [x] 8. Modifiers
   - [x] 9. Lookaround
-  - [ ] 10. Regexp conditionals
-  - [ ] 11. Flags
+  - [x] 10. Regexp conditionals
+  - [x] 11. Flags
