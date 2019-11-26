@@ -11,6 +11,6 @@
 
 ## Challenges:
   - [ ] 1. Dependencies
-  - [ ] 2. Convertor
-  - [ ] 3. Flatten
+  - [x] 2. Convertor
+  - [x] 3. Flatten
   - [ ] 4. Itinerary
