@@ -13,4 +13,4 @@
   - [ ] 1. Dependencies
   - [x] 2. Convertor
   - [x] 3. Flatten
-  - [ ] 4. Itinerary
+  - [x] 4. Itinerary
