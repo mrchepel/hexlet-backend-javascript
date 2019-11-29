@@ -10,7 +10,7 @@
   - [x] 8. Calculate
 
 ## Challenges:
-  - [ ] 1. Dependencies
+  - [x] 1. Dependencies
   - [x] 2. Convertor
   - [x] 3. Flatten
   - [x] 4. Itinerary
